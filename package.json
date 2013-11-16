@@ -1,8 +1,9 @@
-{
+﻿{
   "name": "jquery.uls",
   "version": "0.1.0",
   "description": "Universal Language Selector",
   "homepage": "https://github.com/wikimedia/jquery.uls",
+  "private":true,
   "keywords": [
     "internationalization",
     "localization",
