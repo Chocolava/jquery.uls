@@ -58,7 +58,6 @@
 			$( document ).ready( function() {
 				$('.uls-trigger').uls( {
 					onSelect : function( language ) {
-						//var languageName = $.uls.data.getAutonym( language );
 						changearr(language);
 					},
 					quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] //FIXME
@@ -76,7 +75,7 @@
 	
 	<body onload="print()">
 		<h1><center><u>Universal Language Selector</u></center></h1>
-			<div id="left_panel" style="height:500px;width:130px;background:#8b8989;float:left;padding:30px;z-index:5;">
+			<div id="left_panel" style="height:500px;width:10%;background:#8b8989;float:left;padding:30px;z-index:5;">
 				<div id="somelink" style="height:120px;width:200px;font-size:18px;color:white"></div><br>
 				<div id="but1" style="height:30px;font-size:16px;line-height:30px;vertical-align:middle;text-align:center;width:120px;cursor:pointer;border:2px solid white;"
 				onclick="toggle()" class="uls-trigger active">More Languages</div>
@@ -84,7 +83,7 @@
 					<input type="text" style="width:100%;height:30px;">
 				</div><br>
 			</div>
-			<div id="right_panel" style="height:500px;width:1000px;background:#d1ec40;margin-left:20px;border:1px solid black;float:left;padding:30px;z-index:-1;">
+			<div id="right_panel" style="height:500px;width:75%;background:#d1ec40;margin-left:20px;border:1px solid black;float:left;padding:30px;z-index:-1;">
 				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
 			</div>	
 	</body>

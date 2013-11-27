@@ -8,10 +8,9 @@
 }
 
 .uls-menu {
-	position: absolute;
+	position:absolute;
 	z-index: 1000;
 	display: none;
-	margin-top: 1px;
 	/* Styling */
 	background-color: #ffffff;
 	border: 1px solid #ccc;
